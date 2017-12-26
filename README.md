@@ -1,7 +1,6 @@
 # Impresoras-Fiscales
 Ejemplos, DLLs y mas informacion en general sobre las Impresoras Fiscales en Republica Dominicana
 
-
 <h3> Conceptos Basicos segun la DGII </h3>
 Definición de solución fiscal:
 
@@ -17,8 +16,7 @@ La instalación de las soluciones fiscales ayuda a la formalización de los nego
  
 ¿Quiénes aplican para instalar una solución fiscal?
 
- 
-Todos los contribuyentes que venden productos o prestan servicios a consumidores finales, aplican para la instalación de Soluciones Fiscales, haciendo solo una excepción con los contribuyentes acogidos al Procedimiento Simplificado de Tributación (PST), que no aplican por ser los negocios más pequeños del país.​
+Todos los contribuyentes que venden productos o prestan servicios a consumidores finales, aplican para la instalación de Soluciones Fiscales, haciendo solo una excepción con los contribuyentes acogidos al Procedimiento Simplificado de Tributación (PST), que no aplican por ser los negocios más pequeños del país.
  
  
 Procedimiento a seguir para instalar una solución fiscal:
@@ -48,7 +46,7 @@ Para cumplir con estas obligaciones el contribuyente debe solicitar a Oficina Vi
 
 [![Mas Info...](https://www.google.com.do/search?q=youtube&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiG94XDxKbYAhUC2mMKHZWmB58Q_AUICygC&biw=1366&bih=651#imgrc=GGxV6W9nWGN7gM:)](https://www.youtube.com/watch?v=YL03eh2CPgA&t=31s)
 
-
+[Mas Info..](https://www.youtube.com/watch?v=YL03eh2CPgA&t=31s)
 
 
 
