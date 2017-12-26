@@ -45,4 +45,11 @@ Obligaciones de los contribuyentes que usan soluciones fiscales:
 Remitir los libros de venta mensual, a más tardar 15 días después de cierre de mes.  Dichos archivos se deben generar de forma diaria en cada impresora, y luego uno por mes por sucursal, según lo establecido en el Decreto 451-08.
 Actualizar las bitácoras (física y electrónica) en un plazo de 3 días luego de ocurrido el evento.
 Para cumplir con estas obligaciones el contribuyente debe solicitar a Oficina Virtual (ya sea llamando al teléfono 809-689-3444 opción 2. o vía correo electrónico: oficinavirtual@dgii.gov.do un usuario para tales fines, con las opciones de “Envío de los Libros de Venta” y “Bitácora Electrónica”.
+
+[![Mas Info...](https://www.google.com.do/search?q=youtube&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiG94XDxKbYAhUC2mMKHZWmB58Q_AUICygC&biw=1366&bih=651#imgrc=GGxV6W9nWGN7gM:)](https://www.youtube.com/watch?v=YL03eh2CPgA&t=31s)
+
+
+
+
+
  
