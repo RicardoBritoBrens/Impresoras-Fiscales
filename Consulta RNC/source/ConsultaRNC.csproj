@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{06C97C82-3527-4D56-AC55-C4989AB1D73B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ConsultaRNC</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="HtmlAgilityPack" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsultaRNC.My.Resources\Resources.cs" />
+    <Compile Include="ConsultaRNC.My\InternalXmlHelper.cs" />
+    <Compile Include="ConsultaRNC.My\MyApplication.cs" />
+    <Compile Include="ConsultaRNC.My\MyComputer.cs" />
+    <Compile Include="ConsultaRNC.My\MyProject.cs" />
+    <Compile Include="ConsultaRNC.My\MySettings.cs" />
+    <Compile Include="ConsultaRNC.My\MySettingsProperty.cs" />
+    <Compile Include="ConsultaRNC\Client.cs" />
+    <Compile Include="ConsultaRNC\Contribuyente.cs" />
+    <Compile Include="ConsultaRNC\Dgii.cs" />
+    <Compile Include="ConsultaRNC\Helper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConsultaRNC\Resources.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
