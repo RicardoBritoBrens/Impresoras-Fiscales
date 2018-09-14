@@ -1,0 +1,82 @@
+  'Validar cedula Dominicana
+    Public Function ValidarCedula(ByVal StrCedula As String) As Boolean
+
+        Dim digCedula() As Integer = {1, 2, 1, 2, 1, 2, 1, 2, 1, 2}
+        Dim x As Integer, y As Integer, intResultado As Integer, dResultado As Double, CheckDigit As Integer
+
+        'Eliminar guiones al documento
+        StrCedula = Replace(StrCedula, "-", "")
+
+        'Ciclo para validar cada digito
+        For n = 0 To 9
+
+            x = CType(StrCedula.Substring(n, 1), Integer)
+            y = digCedula(n)
+
+            intResultado = x * y
+
+            If intResultado > 9 Then
+                x = CType(CType(intResultado, String).Trim.Substring(0, 1), Integer)
+                y = CType(CType(intResultado, String).Trim.Substring(1, 1), Integer)
+            Else
+                x = 0
+                y = intResultado
+            End If
+
+            dResultado = dResultado + x + y
+        Next
+
+        'Obtener el reciduo al dividir el acumulado entre 10
+        dResultado = dResultado - (Int((dResultado / 10)) * 10)
+
+        'Si el reciduo es mayor cero se lo resto a diez y asi obtengo el digito verificador del documento
+        If dResultado > 0 Then
+            CheckDigit = 10 - dResultado
+        Else
+            CheckDigit = dResultado
+        End If
+
+        'Si coincide el digito verificador calculado con el de la cedula digitado entonces es valida
+        If CheckDigit <> StrCedula.Substring(10, 1) Then
+            Return False
+        Else
+            Return True
+        End If
+
+    End Function
+
+    'Validar RNC Rep. Dom.
+    Public Function ValidarRNC(ByVal strRNC As String) As Boolean
+
+        Dim digRNC() As Integer = {7, 9, 8, 6, 5, 4, 3, 2}
+        Dim Suma As Integer = 0, Division As Integer = 0, Residuo As Integer = 0, CheckDigit As Integer = 0
+
+        strRNC = Replace(strRNC, "-", "")
+
+        'Validar si tenemos solo numero en el RNC
+        If CType(strRNC, Integer) = 0 Then
+            Return False
+        End If
+
+        For n = 0 To 7
+            Suma += (CType(strRNC.Substring(n, 1), Integer) * digRNC(n))
+        Next
+
+        Division = Suma Mod 11
+        Residuo = Suma Mod 11 'Suma - (Division * 11)
+
+        If Residuo = 0 Then
+            CheckDigit = 2
+        ElseIf Residuo = 1 Then
+            CheckDigit = 1
+        Else
+            CheckDigit = 11 - Residuo
+        End If
+
+        If CheckDigit <> CType(strRNC.Substring(8, 1), Integer) Then
+            Return False
+        Else
+            Return True
+        End If
+
+    End Function

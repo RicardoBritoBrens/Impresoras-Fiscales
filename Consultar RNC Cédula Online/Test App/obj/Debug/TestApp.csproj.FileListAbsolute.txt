@@ -1,0 +1,8 @@
+C:\Users\Ricardo\Desktop\New folder (2)\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Desktop\New folder (2)\bin\Debug\TestApp.exe.config
+C:\Users\Ricardo\Desktop\New folder (2)\bin\Debug\TestApp.exe
+C:\Users\Ricardo\Desktop\New folder (2)\bin\Debug\TestApp.pdb
+C:\Users\Ricardo\Desktop\New folder (2)\bin\Debug\ConsultaRNC.dll
+C:\Users\Ricardo\Desktop\New folder (2)\obj\Debug\TestApp.csproj.CopyComplete
+C:\Users\Ricardo\Desktop\New folder (2)\obj\Debug\TestApp.exe
+C:\Users\Ricardo\Desktop\New folder (2)\obj\Debug\TestApp.pdb

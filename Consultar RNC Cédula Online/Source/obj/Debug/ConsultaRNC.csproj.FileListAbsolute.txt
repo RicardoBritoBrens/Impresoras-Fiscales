@@ -1,0 +1,2 @@
+C:\Users\Ricardo\Desktop\New folder\obj\Debug\ConsultaRNC.csprojAssemblyReference.cache
+C:\Users\Ricardo\Desktop\New folder\obj\Debug\ConsultaRNC.csproj.CoreCompileInputs.cache
